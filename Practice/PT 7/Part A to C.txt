@@ -1,0 +1,26 @@
+Part A
+ans 1. <form> is to create forms using html
+ans 2. GET is use for retrieving the data and POST is to send the data
+ans 3. <label> is used specially for <input> tag, as it label what to write
+       for eg- <label for="username">Name :</label>
+            <input type="text" id="username" name="username" placeholder="enter your name">
+ans 4. it triggers the connected input 
+ans 5. "id"
+ans 6. text, password, submit, reset, radio, checkbox, button, email. 
+ans 7. "<input type="text">" used for small things and "<textarea></textarea>" used for bigger texts like descriptions, explanations etc.
+and 8. its usually for backend, used for something to "find"
+and 9. "required"
+and 10. <input type="password"
+
+Part B
+ans 1. triggers the connect input. for this the mouse cursor will become text cursor and you can write
+ans 2. hidden (*****)
+ans 3. all of the above
+ans 4. One at a time
+
+Part C
+ans 1. id is mentioned for user but labeled for username
+ans 2. No
+ans 3. for label, 'For'attribute can be added, <label for="email">Email</label>
+       for input, 'id' and 'name' attributes can be added, <input type="email" id="email" name="email"
+       

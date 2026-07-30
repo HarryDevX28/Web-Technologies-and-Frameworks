@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Feedback">
+    <title>Feedback Form</title>
+</head>
+<body>
+    <h1>Feedback Form</h1>
+    <form method="POST">
+        <div>
+            <label for="username">Name :</label>
+            <input type="text" id="username" name="name" placeholder="Enter your name..." required>
+        </div>
+        <div>
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email..." required>
+        </div>
+        <div>
+            <label for="phonenumber">Phone Number</label>
+            <input type="tel" id="phonenumber" name="phonenumber" placeholder="Enter your Phone Number...">
+        </div>
+        <div>
+            <label for="rating">Rating :</label>
+            <input type="radio" id="1star" name="star">
+            <label for="1star">1 Star</label>
+            <input type="radio" id="2star" name="star">
+            <label for="2star">2 Star</label>
+            <input type="radio" id="3star" name="star">
+            <label for="3star">3 Star</label>
+            <input type="radio" id="4star" name="star">
+            <label for="4star">4 Star</label>
+            <input type="radio" id="5star" name="star">
+            <label for="5star">5 Star</label>
+        </div>
+        <div>
+            <label for="favsub">Favorite Subject :</label>
+            <input type="checkbox" id="favsub">
+            <label for="favsub">English</label>
+            <input type="checkbox" id="favsub">
+            <label for="favsub">Maths</label>
+            <input type="checkbox" id="favsub">
+            <label for="favsub">Science</label>
+            <input type="checkbox" id="favsub">
+            <label for="favsub">Physical Education</label>
+            <input type="checkbox" id="favsub">
+            <label for="favsub">Information Practices</label>
+        </div>
+        <div>
+            <label for="suggestions">Suggestions :</label>
+            <textarea rows="3" cols="50" name="comment" id="suggestions"></textarea>
+        </div>
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+</body>
+</html>
