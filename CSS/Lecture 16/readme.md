@@ -1,0 +1,1 @@
+This lecture was about the exercise given in lecture 12.
