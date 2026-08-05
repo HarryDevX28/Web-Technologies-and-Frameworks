@@ -1,0 +1,17 @@
+          *{
+            margin: 0;
+            padding: 0;
+        }
+        .nav{
+            background-color: green;
+        }
+        ul{
+            display: flex;
+        }
+        ul li{
+            list-style-type: none;
+            padding: 34px;
+        }
+        .container{
+            background-color: rgb(103, 184, 103);
+        }
