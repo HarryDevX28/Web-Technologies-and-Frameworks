@@ -1,17 +1,26 @@
-          *{
-            margin: 0;
-            padding: 0;
+:root{
+            --color: rgb(61, 61, 230);
+            --seccolor: rgb(107, 107, 247);
         }
+       
+        *{
+           margin: 0;
+           padding: 0;
+        } 
+        
         .nav{
-            background-color: green;
+            background-color: var(--color);
         }
+        
         ul{
             display: flex;
         }
+        
         ul li{
-            list-style-type: none;
+            list-style: none;
             padding: 34px;
         }
+        
         .container{
-            background-color: rgb(103, 184, 103);
+            background-color: var(--seccolor);
         }
