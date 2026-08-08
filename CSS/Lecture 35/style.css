@@ -1,0 +1,36 @@
+/* .box:first-child{
+            background-color: red;
+        } */
+        
+        /* .box:first-child:first-child::first-line{
+            background-color: green;
+        } */
+        
+        /* .boxes *{
+            background-color: blue;
+            border: 2px solid black;
+        } */
+        
+        /* [data-color="primary"]{
+            margin: 45px;
+            padding: 45px;
+        } */
+        
+        .boxes::before{
+            content: "Hariom is a good by";
+            background-color: blue;
+        }
+
+        .boxes::after{
+            content: "that shit was a lie";
+        }
+
+        ::selection{
+            color: aqua;
+            background-color: black;
+
+        }
+
+        input::placeholder{
+            color: green;
+        }
