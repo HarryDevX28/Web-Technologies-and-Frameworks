@@ -1,0 +1,36 @@
+ *{
+            margin: 0;
+            padding: 0;
+        }
+        nav{
+            background-color: palevioletred;
+            height: 50px;
+            /* position: fixed;
+            top: 0px;
+            left: 0px;
+            right: 0px; */
+        }
+        .container{
+            background-color: greenyellow;
+            margin: 12px 34px;
+            text-align: center;
+            padding: 55px 23px;
+        }
+        
+        .box1{
+            margin: 20px 32px;
+            height: 50vh;
+            width: 45%;
+            background-color: pink;
+            display: inline-block;
+            margin: 0px 12px;
+        }
+
+        .box2{
+            margin: 20px 32px;
+            height: 50vh;
+            width: 45%;
+            background-color: blue;
+            display: inline-block;
+            margin: 0px 12px;
+        }
