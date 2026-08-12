@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url(assets/images/bg.jpg);
+    height: 644px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    position: relative;
+}
+.main .box{
+    height: 644px;
+    width: 100%;
+    opacity: 0.64;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+nav{
+    display: flex;
+    width: 60vw;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+@media screen and (max-width: 1300px) {
+    nav{
+    width: 90vw;
+}
+}
+nav img{
+    position: relative;
+    width: 130px;
+}
+.btn{
+    position: relative;
+    z-index: 10;
+    padding: 3px 8px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: rgba(218, 10, 10, 0);
+    color: white;
+}
+.btn-red{
+    position: relative;
+    z-index: 10;
+    padding: 3px 8px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: rgb(255, 7, 7);
+    color: white;
+}
+.hero{
+    position: relative;
+    color: white;
+    height: 544px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 30px;
+    gap:23px
+}
+.hero> :nth-child(1){
+    font-weight: bolder;
+    font-size: 48px;
+}
+.hero> :nth-child(2){
+    font-size: 24px;
+}
+.hero> :nth-child(3){
+    font-size: 20px;
+}
+@media screen and (max-width:1300px) {
+    .hero> :nth-child(1){
+    font-size: 34px;
+    }
+    .hero> :nth-child(2){
+    font-size: 20px;
+    }
+    .hero> :nth-child(2){
+    font-size: 17px;
+    }
+}
+.hero-buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.main input{
+    border-radius: 4;
+    border: 1px solid rgb(128, 128, 128);
+    background-color: #ffffff00;
+    padding: 7px 101px 8px 14px;
+
+}
+.main-btn-red{
+    background-color: red;
+    border-radius: 4px;
+    border: 1px solid red;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 4px 24px;
+}
+.separate{
+    height: 7px;
+    background: rgb(46, 44, 44);
+}
