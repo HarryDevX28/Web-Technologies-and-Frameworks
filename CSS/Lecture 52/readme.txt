@@ -1,0 +1,1 @@
+this Lecture was about figma software, used to design website/apps before actually writing code
