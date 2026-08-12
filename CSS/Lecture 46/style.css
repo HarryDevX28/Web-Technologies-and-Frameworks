@@ -1,0 +1,25 @@
+.container{
+            background-color: rgb(4, 73, 73);
+            height: 80vh;
+            width: 30vw;
+        }
+       
+        .box{
+            width: 34px;
+            height: 45px;
+            background-color: rgb(219, 0, 0);
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            animation: hariom1 2s linear infinite alternate; 
+            /* hariom2 2.5s linear 0.5s infinite alternate; */
+        }
+        @keyframes hariom1{
+            from{
+
+                
+            }
+         to{
+            background-color: green;
+            transform: translateX(30vw) translateY(70vw) rotate(600deg) scale(4);
+         }
+            
+        }
