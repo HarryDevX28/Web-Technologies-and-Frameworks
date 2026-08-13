@@ -48,6 +48,7 @@ nav img{
     border-radius: 4px;
     background-color: rgba(218, 10, 10, 0);
     color: white;
+    cursor: pointer;
 }
 .btn-red{
     position: relative;
@@ -55,8 +56,9 @@ nav img{
     padding: 3px 8px;
     border: 1px solid white;
     border-radius: 4px;
-    background-color: rgba(rgb(255, 7, 7));
+    background-color: rgb(255, 7, 7);
     color: white;
+    cursor: pointer;
 }
 .hero{
     position: relative;
@@ -87,7 +89,7 @@ nav img{
     .hero> :nth-child(2){
     font-size: 20px;
     }
-    .hero> :nth-child(2){
+    .hero> :nth-child(3){
     font-size: 17px;
     }
 }
@@ -97,6 +99,7 @@ nav img{
     justify-content: center;
     align-items: center;
     gap: 16px;
+    cursor: pointer;
 }
 .main input{
     border-radius: 6px;
@@ -113,6 +116,7 @@ nav img{
     font-size: 20px;
     font-weight: 400;
     padding: 4px 24px;
+    cursor: pointer;
 }
 .separate{
     height: 7px;
